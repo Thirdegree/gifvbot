@@ -1,11 +1,11 @@
 import webbrowser, praw
 
-app_id='t-PLJsmV3kXptA'
-app_secret='mE1WZP51jelB148fxtgao4JfXDk'
+app_id=''
+app_secret=''
 app_uri='https://127.0.0.1:65010/authorize_callback'
 app_ua = "gifv by /u/thirdegree"
 app_scope = 'account creddits edit flair history identity livemanage modconfig modcontributors modflair modlog modothers modposts modself modwiki mysubreddits privatemessages read report save submit subscribe vote wikiedit wikiread'
-app_refresh = '22205912-hoQes_ANvvjyMkLMPmVTX_mHvk8'
+app_refresh =''
 
 
 def login():
