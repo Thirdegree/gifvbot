@@ -7,8 +7,8 @@ cDone = deque(maxlen=300)
 doComs = True
 
 def main():
-    stream = praw.helpers.submission_stream(r, "thirdegree", limit=None)
-    cStream = praw.helpers.comment_stream(r, "thirdegree", limit=None)
+    stream = praw.helpers.submission_stream(r, "all", limit=None)
+    cStream = praw.helpers.comment_stream(r, "all", limit=None)
 
     for sub, com in zip(stream, cStream):
         try:
